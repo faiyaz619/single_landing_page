@@ -1,0 +1,427 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #1F2235;
+    color: rgb(196, 168, 12);
+}
+section{
+    width: 85%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.alt{
+    clear: both;
+}
+
+span{
+    color: goldenrod;
+}
+.title{
+    font-size: 35px;
+    color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:poppins;
+    letter-spacing: 1px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+    
+}
+
+/*------ Navigation css ends ------ */
+
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    /* background-color: rgb(255, 255, 255); */
+    line-height: 80px;
+    font-size: 20px;
+}
+.nav-bar .logo{
+    width: 15%;
+    float: left;
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+}
+/* .logo span{
+    color: rgb(218, 155, 21);
+} */
+.nav-bar .nav-menu{
+    width: 70%;
+    float: left;
+}
+.nav-bar .nav-menu ul{
+    list-style: none;
+    float: right;
+    cursor:pointer;
+    
+}
+.nav-bar .nav-menu ul li{
+    display: inline-block;
+    margin-left: 40px;
+   
+}
+
+.nav-bar .nav-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase; 
+    color: aliceblue; 
+}
+.active{
+    border-bottom: 5px solid goldenrod;
+}
+
+.nav-bar .nav-menu ul li:hover a{
+    border-bottom: 5px solid goldenrod;
+}
+/*------ Navigation css ends ------ */
+
+/*------ Banar css starts ------ */
+#banar{
+    background: url(/images/banar2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.banar-container{
+    padding-bottom: 200px;
+}
+.banar-content{
+    padding-top: 220px;
+    padding-left: 220px;
+}
+ 
+.banar-content h2{
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: white;
+}
+.banar-content h3{
+    padding-bottom: 25px;
+}
+.banar-content p{
+    padding-bottom: 40px;
+    color: turquoise;
+}
+
+.banar-content a{
+    text-decoration: none;
+    height: 50px;
+    width: 200px;
+    background-color: goldenrod;
+    color: black;
+    font-size: 18px;
+    display: flex;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    transition: all linear smooth;
+}
+.banar-content a:hover{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: 1px solid goldenrod;
+}
+
+/*------ Banar css ends ------ */
+
+/*------ About css Starts ------ */
+.about-container .about-image{
+    width: 30%;
+    float: left;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+.about-image img{
+    height: 450px;  
+
+}
+
+.about-container .about-content{
+    width: 50%;
+    float: right;
+    padding:70px 0px 0 60px;
+}
+.about-content h2{
+    padding-bottom: 25px;
+    font-size: 30px;
+    color: lightgoldenrodyellow;
+}
+.about-content p{
+    padding-bottom: 25px;
+    font-size: 18px;
+    color: lightgoldenrodyellow;
+}
+.about-content a{
+    text-decoration: none;
+    height: 50px;
+    width: 200px;
+    background-color: goldenrod;
+    color: black;
+    font-size: 18px;
+    display: flex;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    transition: all linear smooth;
+}
+
+.about-content a:hover{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: 1px solid goldenrod;
+    font-size: 20px;
+}
+/*------ About css Ends ------ */
+
+/*------ Service css Starts ------ */
+.service-container{
+    width: 100%;
+    margin: 0 auto;
+}
+.service-content{
+    width: 30%;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    border: 1px solid goldenrod;
+    background-color: rgb(219, 190, 118);
+    text-align: center;
+}
+.service-content:hover{
+ box-shadow: 0 0 20px  silver;
+ background-color: transparent;
+}
+.service-content:hover h3{
+    color: white;
+}
+.service-content:hover p{
+color: goldenrod;
+}
+
+.service-content i{
+    font-size: 50px;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: goldenrod;
+}
+.service-content h3{
+    font-size: 30px;
+    color: rgb(66, 65, 65);
+    padding-bottom: 30px;
+}
+.service-content p {
+    color: rgb(124, 124, 124);
+}
+
+/*------ Service css Ends ------ */
+
+
+/* -------- Portfolio css starts-------- */
+.portfolio-menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.portfolio-menu ul li{
+    display: inline-block;
+    border: 1px solid goldenrod;
+    padding: 10px 20px 10px 20px;
+    margin-right: 30px;
+    border-radius: 25px;
+}
+.portfolio-menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.portfolio-menu ul li:hover{
+    background-color: white;
+}
+.portfolio-menu ul li:hover a{
+    color: goldenrod;
+    font-weight: 600;
+}
+#all{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.p-image{
+    display: inline-block;
+    width: 30%;
+    
+}
+
+.p-image img{ 
+    height: auto;
+    width: 350px;
+    padding: 10px;
+    transition: all linear smooth;
+    
+}
+.p-image:hover img{
+ width: 355px;
+ height: auto;
+ padding: 0;
+}
+
+
+/* -------- Portfolio css ends-------- */
+
+/* -------- Skill css starts-------- */
+.skill-content{
+    text-align: center;
+}
+
+.skill-content label{
+    font-size: 25px;
+    padding-bottom: 30px;
+    width: 30%;
+}
+
+.skill-content #file{
+    width: 40%;
+}
+progress {
+    width: 400px;
+    height: 10px;
+    background: rgb(238, 109, 135);
+    border-radius: 20px;
+  }
+  
+progress {
+    color: lightblue;
+  }
+  
+progress::-moz-progress-bar {
+    background: lightcolor;
+  }
+  
+progress::-webkit-progress-value {
+    background: rgb(60, 221, 54);
+  }
+  
+progress::-webkit-progress-bar {
+    background: rgb(255, 255, 255);
+  }
+
+/* -------- Skill css ends-------- */
+
+/* -------- Blog css starts-------- */
+
+.blog-card{
+    width: 100%;
+    text-align: center;
+    color: ivory;
+}
+.blog-content{
+    width:32%;
+    float: left;
+    border: 1px solid white;
+    position: relative;
+    padding: 10px;
+}
+.blog-image{
+    width: 100%;
+    padding: 0 0 10px 0;
+}
+.blog-image img{
+    width: inherit;
+}
+.blog-content a{
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 20px;
+}
+.blog-content i{
+    padding-left: 10px;
+}
+.overlay{
+position: absolute;
+background-color: rgb(0,0,0,0.9);
+height: 100%;
+width: 100%;
+bottom:0;
+right:0;
+transform: scale(0);
+transition: linear 0.5s;
+display: flex;
+justify-content: center;
+align-items:center;
+}
+
+.blog-content:hover .overlay{
+    transform: scale(1);
+}
+/* -------- Blog css ends-------- */
+
+/* -------- Contact css starts-------- */
+#contact{
+    text-align: center;
+}
+#contact .info{
+    width: 100%;
+    
+}
+#contact .info input{
+    width: 32%;
+    height: 60px;
+    margin-bottom: 30px;
+}
+.midle{
+    margin: 0 20px;
+}
+textarea{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 60px;
+}
+.contact-container a{
+    text-decoration: none;
+    background-color: blue;
+    padding: 16px 60px;
+    color: white;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all linear .5s;
+}
+
+.contact-container a:hover{
+    background-color: white;
+    color: blue;
+    font-weight: 600;
+}
+
+/* -------- Contact css ends-------- */
+
+/* -------- footer css starts-------- */
+
+footer{
+    text-align: center;
+    color: lightgoldenrodyellow;
+    font-size: 20px;
+}
+/* -------- footer css Ends-------- */
+
+
