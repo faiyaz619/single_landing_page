@@ -86,7 +86,7 @@ span{
 
 /*------ Banar css starts ------ */
 #banar{
-    background: url(/images/banar2.jpg);
+    background: url(../images/banar2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
